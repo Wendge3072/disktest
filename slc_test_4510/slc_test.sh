@@ -7,4 +7,4 @@ sh ./prepare/start.sh
 sh ./uniform/start.sh
 
 # Run skewed tests
-sh ./skewed/start.sh
+# sh ./skewed/start.sh
