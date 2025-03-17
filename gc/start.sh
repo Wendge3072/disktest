@@ -1,0 +1,2 @@
+date
+fio rnd.job
