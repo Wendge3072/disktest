@@ -10,32 +10,32 @@ group_reporting=1
 
 [job1]
 name=job1
-filename=/dev/nvme1n1p1
+filename=/dev/vda
 
 [job2]
 name=job2
-filename=/dev/nvme1n1p2
+filename=/dev/vdb
 
 [job3]
 name=job3
-filename=/dev/nvme1n1p3
+filename=/dev/vdc
 
 [job4]
 name=job4
-filename=/dev/nvme1n1p4
+filename=/dev/vdd
 
 [job5]
 name=job5
-filename=/dev/nvme1n1p5
+filename=/dev/vde
 
 [job6]
 name=job6
-filename=/dev/nvme1n1p6
+filename=/dev/vdf
 
 [job7]
 name=job7
-filename=/dev/nvme1n1p7
+filename=/dev/vdg
 
 [job8]
 name=job8
-filename=/dev/nvme1n1p8
+filename=/dev/vdh
