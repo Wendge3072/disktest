@@ -1,7 +1,7 @@
-date 
+date > time.txt
 fio seq.job
-date 
+date >> time.txt
 fio seq.job
-date
+date >> time.txt
 fio rnd.job
-echo "DONE"
+echo "DONE" >> time.txt
