@@ -102,9 +102,9 @@ MAIN_PATH="/root/disktest/slc_test_4510/"
 # done
 
 
-echo "start round two" > $MAIN_PATH/prepare/status
-fio $MAIN_PATH/prepare/seq.job
-echo "round two DONE" >> $MAIN_PATH/prepare/status
+# echo "start round two" > $MAIN_PATH/prepare/status
+# fio $MAIN_PATH/prepare/seq.job
+# echo "round two DONE" >> $MAIN_PATH/prepare/status
 
 echo "start round three" >> $MAIN_PATH/prepare/status
 fio $MAIN_PATH/prepare/seq.job

@@ -2,7 +2,7 @@ MAIN_PATH="/root/disktest/slc_test_4510/"
 
 # prepare again
 fio $MAIN_PATH/prepare/seq.job
-fio $MAIN_PATH/prepare/seq.job
+# fio $MAIN_PATH/prepare/seq.job
 
 # # test 4k sequntial write for 1 hours
 # for i in {1..12}
@@ -55,7 +55,7 @@ fio $MAIN_PATH/prepare/seq.job
 
 # prepare again
 fio $MAIN_PATH/prepare/rnd.job
-fio $MAIN_PATH/prepare/rnd.job
+# fio $MAIN_PATH/prepare/rnd.job
 
 # test 4k random write for 1 hours
 for i in {1..12}
