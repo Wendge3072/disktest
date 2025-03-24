@@ -8,7 +8,7 @@ numjobs=1
 size=512g
 group_reporting=1
 log_avg_msec=1000
-write_bw_log=ts
+write_bw_log=ts2
 per_job_logs=0
 
 [job1]
