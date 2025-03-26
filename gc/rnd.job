@@ -9,9 +9,6 @@ size=100%
 time_based=1
 runtime=7200s
 group_reporting=1
-log_avg_msec=1000
-write_bw_log=tr
-per_job_logs=0
 
 [job1]
 name=job1

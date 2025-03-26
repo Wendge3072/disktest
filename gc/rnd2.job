@@ -7,9 +7,6 @@ bs=64k
 numjobs=4
 size=25%
 group_reporting=1
-log_avg_msec=1000
-write_bw_log=tr2
-per_job_logs=0
 
 [job1]
 name=job1
