@@ -2,20 +2,18 @@ date > time.txt
 fio seq.job
 
 date >> time.txt
-fio rnd.job &
+fio rnd.job > rnd.txt 2>&1 &
 
-FIO_PID=$!
-echo "FIO started with PID: $FIO_PID" >> time.txt
+echo "FIO started" >> time.txt
 
-sleep 60
+sleep 3600
 
 echo "Pausing FIO..." >> time.txt
-kill -STOP $FIO_PID
+pkill -STOP fio
 
-sleep 60
+sleep 1800
 
 echo "Resuming FIO..." >> time.txt
-kill -CONT $FIO_PID
+pkill -CONT fio
 
-wait $FIO_PID
 echo "FIO finished." >> time.txt
