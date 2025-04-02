@@ -3,12 +3,11 @@ ioengine=libaio
 direct=1
 iodepth=64
 rw=randwrite
-randseed=3072
 bs=64k
 numjobs=4
 size=100%
 time_based=1
-runtime=3600s
+runtime=9000s
 group_reporting=1
 
 [job1]
