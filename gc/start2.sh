@@ -7,10 +7,12 @@ fio rnd.job &
 FIO_PID=$!
 echo "FIO started with PID: $FIO_PID"
 
-sleep 3600
+sleep 60
 
 echo "Pausing FIO..."
 kill -STOP $FIO_PID
+
+sleep 60
 
 echo "Resuming FIO..."
 kill -CONT $FIO_PID
