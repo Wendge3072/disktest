@@ -6,7 +6,8 @@ fio rnd.job > rnd.txt 2>&1 &
 
 echo "FIO started" >> time.txt
 
-sleep 3600
+# run for 40 mins
+sleep 2400
 
 echo "Pausing FIO..." >> time.txt
 pkill -STOP fio
