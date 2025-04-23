@@ -5,7 +5,7 @@ iodepth=128
 rw=write
 bs=16k
 numjobs=1
-size=100%
+size=3000G
 group_reporting=1
 
 [job1]
