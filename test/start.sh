@@ -1,9 +1,10 @@
 MAIN_PATH="/root/disktest/test/"
 
-echo "start round one" >> $MAIN_PATH/status
-fio $MAIN_PATH/seq.job
-echo "round one DONE" >> $MAIN_PATH/status
+echo "start seq write" >> $MAIN_PATH/status
+fio $MAIN_PATH/seqwrite.job > fio.log 2&>1 &
 
-echo "start round two" >> $MAIN_PATH/status
-fio $MAIN_PATH/rnd.job
-echo "round two DONE" >> $MAIN_PATH/status
+echo "start rnd read" >> $MAIN_PATH/status
+fio $MAIN_PATH/rndread.job
+
+echo "start seq read" >> $MAIN_PATH/status
+fio $MAIN_PATH/seqread.job 
