@@ -7,7 +7,7 @@ bs=64k
 numjobs=4
 size=100%
 time_based=1
-runtime=9000s
+runtime=10800s
 group_reporting=1
 
 [job1]
