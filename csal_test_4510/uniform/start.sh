@@ -2,7 +2,6 @@ MAIN_PATH="/root/disktest/csal_test_4510/"
 
 # prepare again
 fio $MAIN_PATH/prepare/seq.job
-fio $MAIN_PATH/prepare/seq.job
 
 # test 4k sequntial write for 1 hours
 for i in {1..12}
