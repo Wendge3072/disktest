@@ -1,10 +1,10 @@
 [global]
 ioengine=libaio
 direct=1
+size=3500G
 iodepth=128
 numjobs=1
-size=3500G
-group_reporting=1
+group_reporting
 filename=/dev/nvme5n1
 
 [job1]
