@@ -12,4 +12,4 @@ runtime=180s
 
 [job]
 name=job
-filename=/dev/nvme5
+filename=/dev/nvme5n1
