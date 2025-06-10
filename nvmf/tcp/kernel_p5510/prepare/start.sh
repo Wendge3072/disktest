@@ -1,4 +1,4 @@
-MAIN_PATH="nvmf/tcp/kernel_p5510"
+MAIN_PATH="."
 
 echo "start round one" >> $MAIN_PATH/prepare/status
 fio $MAIN_PATH/prepare/seq.job
