@@ -10,4 +10,4 @@ group_reporting=1
 
 [job]
 name=job
-filename=/dev/nvme5n1
+filename=/dev/nvme5
