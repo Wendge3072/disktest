@@ -12,4 +12,4 @@ runtime=180s
 
 [job]
 name=job
-filename=/dev/disk/by-path/pci-0000:b2:00.0-nvme-1
+filename=/dev/disk/by-path/pci-0000:b1:00.0-nvme-1
