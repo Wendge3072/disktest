@@ -1,8 +1,8 @@
 MAIN_PATH="."
 
-echo "start round one" >> $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') start round one" >> "$MAIN_PATH/prepare/status"
 fio $MAIN_PATH/prepare/seq.job
-echo "round one DONE" >> $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') round one DONE" >> "$MAIN_PATH/prepare/status"
 
 # # test 4k sequntial read for 1 hours
 # for i in {1..6}
@@ -101,13 +101,12 @@ done
 #     echo "rnd 128k read iteration $i DONE" >> $MAIN_PATH/uniform/status
 # done
 
-
-echo "start round two" > $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') start round two" >> "$MAIN_PATH/prepare/status"
 fio $MAIN_PATH/prepare/seq.job
-echo "round two DONE" >> $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') round two DONE" >> "$MAIN_PATH/prepare/status"
 
-echo "start round three" >> $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') start round three" >> "$MAIN_PATH/prepare/status"
 fio $MAIN_PATH/prepare/rnd.job
-echo "round three DONE" >> $MAIN_PATH/prepare/status
+echo "$(date '+%Y-%m-%d %H:%M:%S') round three DONE" >> "$MAIN_PATH/prepare/status"
 
 echo "DONE" >> $MAIN_PATH/prepare/status
