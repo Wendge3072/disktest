@@ -9,4 +9,4 @@ filename=/dev/nvme5n1
 
 [job1]
 rw=write
-bs=1M
+bs=128K
