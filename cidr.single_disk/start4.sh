@@ -1,2 +1,2 @@
 date >> time.txt
-fio rnd8.job
+fio rnd16K.job
