@@ -9,6 +9,6 @@ group_reporting=1
 
 [job1]
 randseed=2252
-size=5000G
+size=3072G
 name=job1
-filename=/home/mysql_data/dummy_file.dat
+filename=/home/mysql_data/dummy_file_rnd.dat

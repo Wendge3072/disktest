@@ -4,10 +4,12 @@ direct=1
 iodepth=128
 rw=write
 bs=64k
+numjobs=4
+size=3072GB
+offset=0
+offset_increment=3072GB
 group_reporting=1
 
 [job1]
 name=job1
-size=2048GB
-numjobs=4
-filename=/home/mysql_data/dummy_file.dat
+filename=/home/mysql_data/dummy_file_seq.dat
