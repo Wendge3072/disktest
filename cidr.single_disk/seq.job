@@ -9,6 +9,5 @@ group_reporting=1
 
 [job1]
 name=job1
-size=100%
+size=13437G
 filename=/home/mysql_data/dummy_file.dat
-
