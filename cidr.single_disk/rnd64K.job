@@ -5,9 +5,9 @@ iodepth=128
 rw=randwrite
 bs=64k
 numjobs=4
-size=116GB
+size=1024GB
 offset=0
-offset_increment=116GB
+offset_increment=1024GB
 group_reporting=1
 
 [job1]

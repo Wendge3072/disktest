@@ -5,9 +5,9 @@ iodepth=128
 rw=write
 bs=64k
 numjobs=4
-size=3072GB
+size=3350GB
 offset=0
-offset_increment=3072GB
+offset_increment=3350GB
 group_reporting=1
 
 [job1]
