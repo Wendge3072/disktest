@@ -13,4 +13,4 @@ group_reporting=1
 [job1]
 randseed=2252
 name=job1
-filename=/dev/vda
+filename=/home/mysql_data/dummy_file.dat
