@@ -5,12 +5,12 @@ iodepth=128
 rw=randwrite
 bs=64k
 numjobs=1
-size=100%
 time_based=1
 runtime=2400s
 group_reporting=1
 
 [job1]
 randseed=2252
+size=100%
 name=job1
 filename=/home/mysql_data/dummy_file.dat

@@ -5,10 +5,10 @@ iodepth=128
 rw=write
 bs=64k
 numjobs=1
-size=100%
 group_reporting=1
 
 [job1]
 name=job1
+size=100%
 filename=/home/mysql_data/dummy_file.dat
 
