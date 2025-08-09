@@ -12,4 +12,4 @@ group_reporting=1
 [job1]
 randseed=2252
 name=job1
-filename=/dev/vda
+filename=/dev/nvme0n1
