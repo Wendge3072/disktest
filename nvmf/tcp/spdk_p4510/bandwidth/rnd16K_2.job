@@ -7,7 +7,7 @@ randseed=2252
 bs=16k
 size=100%
 time_based=1
-runtime=1800s
+runtime=1384s
 group_reporting=1
 
 [job1]
