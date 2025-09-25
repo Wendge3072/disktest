@@ -14,4 +14,3 @@ randseed=2252
 [job1]
 name=job1
 filename=/dev/vda
-filesize=13543G
