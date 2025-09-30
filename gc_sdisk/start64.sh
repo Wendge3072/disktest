@@ -1,5 +1,5 @@
 date > time.txt
-fio seq.job
+fio rnd.job
 
 date >> time.txt
 fio rnd64.job
