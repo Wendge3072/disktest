@@ -8,7 +8,7 @@ bs=32k
 numjobs=4
 size=100%
 time_based=1
-runtime=2400s
+runtime=1800s
 group_reporting=1
 randseed=8848
 

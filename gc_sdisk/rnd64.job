@@ -5,7 +5,7 @@ iodepth=128
 rw=randwrite
 bs=64k
 numjobs=1
-size=858G
+size=840G
 group_reporting=1
 randseed=2252
 
