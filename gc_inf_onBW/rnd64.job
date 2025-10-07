@@ -7,7 +7,9 @@ bs=128K
 numjobs=1
 io_size=512G
 group_reporting=1
-randseed=2252
+time_based=1
+runtime=1800s
+randseed=6477
 
 [job1]
 name=job1
