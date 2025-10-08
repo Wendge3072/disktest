@@ -21,16 +21,16 @@ offset=0G
 name=job2
 filename=/dev/vda
 size=512G
-offset=1024G
+offset=512G
 
 [job3]
 name=job3
 filename=/dev/vda
 size=512G
-offset=2048G
+offset=1024G
 
 [job4]
 name=job4
 filename=/dev/vda
 size=512G
-offset=3072G
+offset=1536G
